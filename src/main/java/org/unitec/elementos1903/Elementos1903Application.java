@@ -23,7 +23,7 @@ public class Elementos1903Application implements CommandLineRunner {
          
          //Buscar todos
          
-         for(Cliente c: repoCliente.findAll()){
+         for(Cliente c: repoCliente.findByEmail("delj_19@hotmail.com")){
              System.out.println(c);
          }
          
