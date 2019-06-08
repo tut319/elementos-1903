@@ -19,7 +19,7 @@ public class Elementos1903Application implements CommandLineRunner {
     public void run(String... args) throws Exception {
         
           //repoCliente.save(new Cliente(1,"tut3","delj_19@hotmail.com"));
-         // repoCliente.save(new Cliente(2,"Chavita","chavita@gmail.com"));
+         // repoCliente.save(new Cliente(2,"Anita","chavita@gmail.com"));
          
          //Buscar todos
          
@@ -33,7 +33,7 @@ public class Elementos1903Application implements CommandLineRunner {
          
          //Borramos el primer despues lo vuelven a insertar
          
-        // repoCliente.deleteById(1);
+        //repoCliente.deleteById(1);
        
     }
 
