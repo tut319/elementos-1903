@@ -23,13 +23,13 @@ public class Elementos1903Application implements CommandLineRunner {
          
          //Buscar todos
          
-         for(Cliente c: repoCliente.findByEmail("delj_19@hotmail.com")){
-             System.out.println(c);
-         }
+        // for(Cliente c: repoCliente.findByEmail("delj_19@hotmail.com")){
+            // System.out.println(c);
+      //   }
          
          //Buscar por ID
          
-         System.out.print(repoCliente.findById(2));
+        // System.out.print(repoCliente.findById(2));
          
          //Borramos el primer despues lo vuelven a insertar
          
