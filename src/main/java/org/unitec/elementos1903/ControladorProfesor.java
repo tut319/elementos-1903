@@ -29,6 +29,8 @@ public class ControladorProfesor {
     //metodo para guardar
     @Autowired 
     RepoProfesor repoProfe;
+    
+    //guardar
     @PostMapping("/profesor")
     public Estatus guardar(@RequestBody String json) throws Exception{
         //primero vamos a recibir json de cliente web y lo trasnformamos a un obj java
@@ -38,6 +40,7 @@ public class ControladorProfesor {
         
         //ahora si lo leemos
         Profesor profe=maper.readValue(json,Profesor.class);
+        
         repoProfe.save(profe);
         //generamos el estatus
         Estatus e=new Estatus();
