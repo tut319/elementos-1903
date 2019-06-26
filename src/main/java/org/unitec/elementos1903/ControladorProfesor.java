@@ -81,7 +81,7 @@ public class ControladorProfesor {
         return e;
        
    }
-   
+   //hero
    //buscar por id
    @GetMapping("/profesor/{id}")
    public Profesor buscarPorId(@PathVariable Integer id){
